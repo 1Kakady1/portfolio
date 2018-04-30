@@ -1,0 +1,30 @@
+User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-json/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: */embed
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: *?s=
+Allow: /wp-admin/admin-ajax.php
+Crawl-delay: 1.5 # таймаут в 1.5 секунды
+
+Host: site.ru
+
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-json/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: */embed
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: *?s=
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: http://site.ru/sitemap.xml
